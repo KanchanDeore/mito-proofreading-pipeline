@@ -1,5 +1,4 @@
 # Mitochondria Proofreading Data Preparation Pipeline
-### Weilab — Boston College
 
 This pipeline automates the preprocessing of mitochondria EM data for proofreading in Cellable.
 
@@ -133,5 +132,5 @@ After running, the pipeline prints a summary:
 ---
 
 ## Authors
-- **Kanchan Sadashiv Deore** — Weilab, Boston College
+- **Kanchan Sadashiv Deore**
 - Guided by **Peng Liu** and **Prof. Donglai Wei**
