@@ -1,4 +1,4 @@
-# 🔬 Mitochondria Proofreading Pipeline
+# Mitochondria Proofreading Pipeline
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -8,7 +8,7 @@ An automated pipeline for preprocessing mitochondria EM data for proofreading in
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 conda activate base
@@ -18,7 +18,7 @@ python3 pipeline.py
 
 ---
 
-## 📋 What This Pipeline Does
+## What This Pipeline Does
 
 | Step | Description |
 |------|-------------|
@@ -33,7 +33,7 @@ python3 pipeline.py
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 ```bash
 conda activate base
@@ -52,7 +52,7 @@ rclone config
 
 ---
 
-## 🚀 How To Use
+## How To Use
 
 ### Step 1 — Fill in your file paths
 Open `pipeline.py` and fill in only these 4 paths at the top:
@@ -76,12 +76,12 @@ GDRIVE_REMOTE = 'your_remote:folder_name'
 python3 pipeline.py
 ```
 
-### Step 3 — Follow the prompts!
+### Step 3 — Follow the prompts
 The pipeline will guide you through every option interactively.
 
 ---
 
-## 🎛 Interactive Options
+## Interactive Options
 
 When you run the pipeline, it will ask you for each volume:
 
@@ -130,27 +130,27 @@ Press 0 → No
 
 ---
 
-## 📁 Expected File Structure
+## Expected File Structure
 
 ```
 RAW_DATA_DIR/
-├── volume_name_im.h5              ← raw image
-├── volume_name_mask_pc1.h5        ← pc1 mask
-├── volume_name_mask_pc2.h5        ← pc2 mask (if available)
+├── volume_name_im.h5              # raw image
+├── volume_name_mask_pc1.h5        # pc1 mask
+├── volume_name_mask_pc2.h5        # pc2 mask (if available)
 └── ...
 
 PREDICTIONS_DIR/
 ├── volume_name_im/
-│   ├── volume_name_im_xy.tif      ← xy prediction
-│   ├── volume_name_im_xz.tif      ← xz prediction
-│   ├── volume_name_im_yz.tif      ← yz prediction
-│   └── volume_name_im_consensus.tif ← consensus prediction
+│   ├── volume_name_im_xy.tif      # xy prediction
+│   ├── volume_name_im_xz.tif      # xz prediction
+│   ├── volume_name_im_yz.tif      # yz prediction
+│   └── volume_name_im_consensus.tif
 └── ...
 ```
 
 ---
 
-## 📤 Output Files
+## Output Files
 
 **Downsample mode:**
 ```
@@ -168,7 +168,7 @@ volume_name_Q4_BR_im.tif        volume_name_Q4_BR_im_mask.tif
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 | Error | Solution |
 |-------|----------|
@@ -180,7 +180,7 @@ volume_name_Q4_BR_im.tif        volume_name_Q4_BR_im_mask.tif
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -190,12 +190,12 @@ volume_name_Q4_BR_im.tif        volume_name_Q4_BR_im_mask.tif
 
 ---
 
-## 📬 Contact
+## Contact
 
-If you run into any issues feel free to open a GitHub issue!
+If you run into any issues, feel free to open a GitHub issue.
 
 ---
 
-## 📄 License
+## License
 
-MIT License — feel free to use and modify!
+MIT License — feel free to use and modify.
